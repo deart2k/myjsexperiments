@@ -1,6 +1,9 @@
-function showMessage() {
-    alert( 'Привет всем присутствующим!' );
-}
+function translate(parameters){
+    var direction = parameters.direction;
+    alelert ("!!!!!!!")
+};
 
-showMessage();
-showMessage();
+
+function spas() {
+    alert( 'Спасибо' )
+};
