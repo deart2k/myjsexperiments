@@ -8,7 +8,7 @@ $(document).ready(function () {
    text.justification = 'center';
    text.fillColor = 'green';
    text.fontSize = 20;
-   text.content = 'Алиса не дура';
+   text.content = 'Алиса дура';
    var tool = new Tool();
    tool.onMouseDown = function (even) {
        var c = Shape.Circle(even.point.x,even.point.y,20);
