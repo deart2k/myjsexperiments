@@ -8,11 +8,11 @@ $(document).ready(function () {
    text.justification = 'center';
    text.fillColor = 'green';
    text.fontSize = 20;
-   text.content = 'Алиса дура';
+   text.content = 'Привет мир';
    var tool = new Tool();
    tool.onMouseDown = function (even) {
        var c = Shape.Circle(even.point.x,even.point.y,20);
-       c.fillColor = 'yellow';
+       c.fillColor = 'blue';
    }
     paper.view.draw();
     console.log('main.js loaded');
